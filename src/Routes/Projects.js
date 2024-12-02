@@ -31,39 +31,39 @@ function Projects() {
           </div>
           <div className='mypro'>
             <div className='inner' ref={scrollRef}>
-              <a className='photo' href='https://fb-clone-oyetech.netlify.app'>
+              <a className='photo' href='https://fb-clone-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/fbclone.png' alt='' />
                 <h2>FACEBOOK CLONE</h2>
               </a>
-              <a className='photo' href='https://chatapp-oyetech.free.nf/'>
+              <a className='photo' href='https://chatapp-oyetech.free.nf/' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/chatapppng.png' alt='' />
                 <h2>CHAT APP</h2>
               </a>
-              <a className='photo' href='https://weather-app-oyetech.netlify.app'>
+              <a className='photo' href='https://weather-app-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/weather.png' alt='' />
                 <h2>WEATHER APP</h2>
               </a>
-              <a className='photo' href='https://quiz-oyetech.netlify.app'>
+              <a className='photo' href='https://quiz-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/quiz.png' alt='' />
                 <h2>QUIZ APP</h2>
               </a>
-              <a className='photo' href='https://slider-oyetech.netlify.app'>
+              <a className='photo' href='https://slider-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/slider.png' alt='' />
                 <h2>SLIDER APP</h2>
               </a>
-              <a className='photo' href='https://texttovoice-oyetech.netlify.app'>
+              <a className='photo' href='https://texttovoice-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/text.png' alt='' />
                 <h2>TEXT TO VOICE</h2>
               </a>
-              <a className='photo' href='https://voicetotext-oyetech.netlify.app'>
+              <a className='photo' href='https://voicetotext-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/voice.png' alt='' />
                 <h2>VOICE TO TEXT</h2>
               </a>
-              <a className='photo' href='https://w3school-clone-oyetech.netlify.app'>
+              <a className='photo' href='https://w3school-clone-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/w3sc.png' alt='' />
                 <h2>W3SCHOOL CLONE</h2>
               </a>
-              <a className='photo' href='https://calculator-oyetech.netlify.app'>
+              <a className='photo' href='https://calculator-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/calculatorpng.png' alt='' />
                 <h2>CALCULATOR APP</h2>
               </a>
