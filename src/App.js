@@ -26,7 +26,7 @@ function App() {
             <a className="acc" href="http://linkedin.com/in/oyekola-abdulqobid-bolaji-999490271">
                 <img src="/linknd.png" alt="linknd"/>
             </a>
-            <a className="acc" href="https://github.com/Oyetech3">
+            <a className="acc" href="https://github.com/Oyetech3" target="_blank" rel="noopener noreferrer">
                 <img src="/github.png" alt="linknd"/>
             </a>
             <a className="acc" href="https://x.com/oyekolaabdulqo1?s=21">
