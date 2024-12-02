@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+/* #f04770 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #010109;
+  padding: 25px;
+  color: #f04770;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+span {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.socials .acc {
+  background-color: white;
+  border-radius: 5px;
+}
+.acc img {
+  width: 30px;
+  height: 30px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #010109;
+}
+.navbar h3 {
+  font-size: 25px;
+}
+nav ul {
+  display: flex;
+  column-gap: 30px;
+  
+}
+.navlink {
+  color: white;
+  position: relative;
+  font-size: 18px;
+}
+.navlink.active {
+  color: #f04770;
+  font-weight: bold;
+}
+.navlink::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f04770;
+  height: 3px;
+  width: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+.navlink:hover::after {
+  width: 100%;
+}
+.menu {
+  color: white;
+  display: none;
+}
+ 
+@media screen and (max-width : 760px) {
+  body {
+    padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+  .menu {
+    display: block;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navbar {
+    align-items: normal;
+  }
+  .show.active {
+    right: 0px;
+  }
+  .show {
+    position: fixed;
+    border: 2px solid #f04770;
+    border-right: 0;
+    right: -50%;
+    top: 55px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100vh;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 20px black;
+    padding: 30px 0 0 25px;
+    transition: 0.5s ease-in-out;
+  }
+  ul li {
+    margin-bottom: 20px;
+  }
+  .navlink {
+    color: black;
+  }
+}
+@media screen and (max-width : 315px) {
+  .socials {
+      padding: 50px;
+      justify-content: space-around;
+  }
+  .socials .acc {
+      background-color: white;
+      border-radius: 5px;
+  }
+  .acc img {
+      width: 25px;
+      height: 25px;
   }
 }
