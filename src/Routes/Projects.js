@@ -31,6 +31,10 @@ function Projects() {
           </div>
           <div className='mypro'>
             <div className='inner' ref={scrollRef}>
+            <a className='photo' href='https://language-translator-oyetech.vercel.app' target="_blank" rel="noopener noreferrer">
+                <img src='/proimg/langtrans.png' alt='' />
+                <h2>LANGUAGE TRANSLATOR</h2>
+              </a>
               <a className='photo' href='https://fb-clone-oyetech.netlify.app' target="_blank" rel="noopener noreferrer">
                 <img src='/proimg/fbclone.png' alt='' />
                 <h2>FACEBOOK CLONE</h2>

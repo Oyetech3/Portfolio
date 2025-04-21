@@ -30,13 +30,35 @@ function Skills() {
               <img src='/imgskill/js.png' alt=''/>
               <p>JAVASCRIPT</p>
             </div>
+            {/* 
             <div className='allimg'>
               <img src='/imgskill/jquery.png' alt=''/>
               <p>JQUERY</p>
-            </div>
+            </div> 
+            */}
             <div className='allimg'>
               <img src='/imgskill/react.png' alt=''/>
               <p>REACT</p>
+            </div>
+            <div className='allimg'>
+              <img src='/imgskill/node.png' alt=''/>
+              <p>NODE JS</p>
+            </div>
+            <div className='allimg'>
+              <img src='/imgskill/express.png' alt=''/>
+              <p>EXPRESS JS</p>
+            </div>
+            <div className='allimg'>
+              <img src='/imgskill/mongo.png' alt=''/>
+              <p>MONGODB</p>
+            </div>
+            <div className='allimg' id='next' >
+              <img style={{borderRadius:"50px"}} src='/imgskill/nextjs.jpg' alt=''/>
+              <p>NEXT JS</p>
+            </div>
+            <div className='allimg' id='next' >
+              <img  src='/imgskill/type.png' alt=''/>
+              <p>TYPESCRIPT</p>
             </div>
             <div className='allimg'>
               <img src='/imgskill/git.png' alt=''/>
